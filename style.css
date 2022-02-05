@@ -1,0 +1,57 @@
+body{
+
+background-image: linear-gradient(45deg,cyan,rgb(8, 23, 255));
+
+
+}
+.borda{
+    
+  
+   
+    opacity: 0.5;
+    }
+h1{
+    outline: 100px;
+    text-shadow: black 3px 3px 0px;
+    position: absolute;
+    top: 05%;
+    left: 47%;
+    transform: translate(-50%,-50%);
+    font-size: 60px;
+    color: floralwhite;
+   border-top: rgb(170, 164, 164);
+   border-width: 30px;
+    
+}
+h2{
+    text-align: center;
+    border-radius: 15px;
+}
+div{
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    transform: translate(-50%,-50%);
+background-color: rgba(243, 231, 231, 0.8);
+padding: 80px;
+border-radius: 20px;
+
+}
+input{
+border: none;
+padding: 15px;
+font-size: 20px;
+border-radius: 20px;
+
+}
+button{
+
+width: 250px;
+
+    border-radius: 50px;
+    padding: 20px;
+    cursor: pointer;
+    background-color: rgb(5, 129, 179);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
